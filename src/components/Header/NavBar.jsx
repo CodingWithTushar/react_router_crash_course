@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 export function NavBar() {
   return (
     <>
-      <header className="sticky top-0 shadow hover:shadow-xl text-xl font-semibold ">
+      <header className="sticky top-0 shadow hover:shadow-xl text-xl font-semibold bg-white ">
         <nav className="flex justify-evenly items-center h-24">
           <div>
             <Link to={"#"}>
